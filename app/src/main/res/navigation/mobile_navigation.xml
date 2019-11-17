@@ -18,16 +18,16 @@
         tools:layout="@layout/fragment_search" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.meilolbook.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_statistics"
+        android:name="com.example.meilolbook.ui.statistics.StatisticsFragment"
+        android:label="@string/menu_statistics"
+        tools:layout="@layout/fragment_statistics" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.example.meilolbook.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/nav_popular"
+        android:name="com.example.meilolbook.ui.Popular.PopularFragment"
+        android:label="@string/menu_popular"
+        tools:layout="@layout/fragment_popular" />
 
 
 </navigation>

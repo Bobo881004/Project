@@ -1,13 +1,13 @@
-package com.example.meilolbook.ui.slideshow
+package com.example.meilolbook.ui.Popular
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SlideshowViewModel : ViewModel() {
+class PopularViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is slideshow Fragment"
+        value = "This is popular Fragment"
     }
     val text: LiveData<String> = _text
 }
