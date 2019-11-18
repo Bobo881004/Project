@@ -1,4 +1,4 @@
-package com.example.meilolbook.ui.Popular
+package com.example.meilolbook.ui.popular
 
 import android.os.Bundle
 import android.view.LayoutInflater

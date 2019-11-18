@@ -1,4 +1,4 @@
-package com.example.meilolbook.ui.Popular
+package com.example.meilolbook.ui.popular
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
