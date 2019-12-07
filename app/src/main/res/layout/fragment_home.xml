@@ -21,121 +21,747 @@
 <!--            app:layout_constraintEnd_toEndOf="parent"-->
 <!--            app:layout_constraintStart_toStartOf="parent"-->
 <!--            app:layout_constraintTop_toTopOf="parent" />-->
-
-    <TableLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:shrinkColumns="0"
-        android:stretchColumns="*">
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="0"
+            android:stretchColumns="*">
 
-        <TableRow>
+            <TableRow>
 
-            <ImageButton
-                android:id="@+id/btn_ahri"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="#000000"
-                app:srcCompat="@drawable/ahri" />
+                <ImageButton
+                    android:id="@+id/btn_aatrox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#000000"
+                    app:srcCompat="@drawable/aatrox" />
 
-            <ImageButton
-                android:id="@+id/btn_akali"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#000000"
-                android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/akali" />
+                <ImageButton
+                    android:id="@+id/btn_ahri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#000000"
+                    app:srcCompat="@drawable/ahri" />
 
-            <ImageButton
-                android:id="@+id/btn_alistar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#000000"
-                android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/alistar" />
+                <ImageButton
+                    android:id="@+id/btn_akali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/akali" />
 
-            <ImageButton
-                android:id="@+id/btn_amumu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#000000"
-                android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/amumu" />
-
-
-        </TableRow>
-
-        <TableRow>
-
-            <TextView
-                android:id="@+id/name_ahri"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="5dp"
-                android:textColor="#FFFFFF"
-                android:text="阿璃" />
-
-            <TextView
-                android:id="@+id/name_akali"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="5dp"
-                android:textColor="#FFFFFF"
-                android:text="阿卡利" />
-
-            <TextView
-                android:id="@+id/name_alistar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="5dp"
-                android:textColor="#FFFFFF"
-                android:text="亞歷斯塔" />
-
-            <TextView
-                android:id="@+id/name_amumu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="5dp"
-                android:textColor="#FFFFFF"
-                android:text="阿姆姆" />
-        </TableRow>
-
-        <TableRow>
-
-            <ImageButton
-                android:id="@+id/btn_anivia"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#000000"
-                android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/anivia" />
+                <ImageButton
+                    android:id="@+id/btn_alistar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/alistar" />
 
 
 
 
-        </TableRow>
+            </TableRow>
 
-        <TableRow>
+            <TableRow>
 
-            <TextView
-                android:id="@+id/name_anivia"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="5dp"
-                android:textColor="#FFFFFF"
-                android:text="艾妮維亞" />
-        </TableRow>
+                <TextView
+                    android:id="@+id/name_aatrox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="厄薩斯" />
+
+                <TextView
+                    android:id="@+id/name_ahri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="阿璃" />
+
+                <TextView
+                    android:id="@+id/name_akali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="阿卡利" />
+
+                <TextView
+                    android:id="@+id/name_alistar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="亞歷斯塔" />
 
 
+            </TableRow>
 
+            <TableRow>
 
+                <ImageButton
+                    android:id="@+id/btn_amumu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/amumu" />
 
-    </TableLayout>
+                <ImageButton
+                    android:id="@+id/btn_anivia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/anivia" />
+
+                <ImageButton
+                    android:id="@+id/btn_annie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/annie" />
+
+                <ImageButton
+                    android:id="@+id/btn_ashe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/ashe" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/name_amumu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="阿姆姆" />
+
+                <TextView
+                    android:id="@+id/name_anivia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="艾妮維亞" />
+
+                <TextView
+                    android:id="@+id/name_annie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="安妮" />
+
+                <TextView
+                    android:id="@+id/name_ashe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="艾希" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btn_aurelionsol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/aurelionsol" />
+
+                <ImageButton
+                    android:id="@+id/btn_azir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/azir" />
+
+                <ImageButton
+                    android:id="@+id/btn_bard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/bard" />
+
+                <ImageButton
+                    android:id="@+id/btn_blitzcrank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/blitzcrank" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/name_aurelionsol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="翱銳龍獸" />
+
+                <TextView
+                    android:id="@+id/name_azir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="阿祈爾" />
+
+                <TextView
+                    android:id="@+id/name_bard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="巴德" />
+
+                <TextView
+                    android:id="@+id/name_blitzcrank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="布里茨" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btn_brand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/brand" />
+
+                <ImageButton
+                    android:id="@+id/btn_braum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/braum" />
+
+                <ImageButton
+                    android:id="@+id/btn_caitlyn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/caitlyn" />
+
+                <ImageButton
+                    android:id="@+id/btn_camille"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/camille" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/name_brand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="布蘭德" />
+
+                <TextView
+                    android:id="@+id/name_braum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="布朗姆" />
+
+                <TextView
+                    android:id="@+id/name_caitlyn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="凱特琳" />
+
+                <TextView
+                    android:id="@+id/name_camille"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="卡蜜兒" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btn_cassiopeia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/cassiopeia" />
+
+                <ImageButton
+                    android:id="@+id/btn_chogath"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/chogath" />
+
+                <ImageButton
+                    android:id="@+id/btn_corki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/corki" />
+
+                <ImageButton
+                    android:id="@+id/btn_dairus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/darius" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/name_cassiopeia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="卡莎碧雅" />
+
+                <TextView
+                    android:id="@+id/name_chogath"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="科加斯" />
+
+                <TextView
+                    android:id="@+id/name_corki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="庫奇" />
+
+                <TextView
+                    android:id="@+id/name_darius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="達瑞斯" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btn_diana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/diana" />
+
+                <ImageButton
+                    android:id="@+id/btn_draven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/draven" />
+
+                <ImageButton
+                    android:id="@+id/btn_drmundo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/drmundo" />
+
+                <ImageButton
+                    android:id="@+id/btn_ekko"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/ekko" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/name_diana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="黛安娜" />
+
+                <TextView
+                    android:id="@+id/name_draven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="達瑞文" />
+
+                <TextView
+                    android:id="@+id/name_drmundo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="蒙多醫生" />
+
+                <TextView
+                    android:id="@+id/name_ekko"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="艾克" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btn_elise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/elise" />
+
+                <ImageButton
+                    android:id="@+id/btn_evelynn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/evelynn" />
+
+                <ImageButton
+                    android:id="@+id/btn_ezreal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/ezreal" />
+
+                <ImageButton
+                    android:id="@+id/btn_fiddlesticks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/fiddlesticks" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/name_elise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="伊莉絲" />
+
+                <TextView
+                    android:id="@+id/name_evelynn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="伊芙琳" />
+
+                <TextView
+                    android:id="@+id/name_ezreal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="伊澤瑞爾" />
+
+                <TextView
+                    android:id="@+id/name_fiddlesticks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="費德提克" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btn_fiora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/fiora" />
+
+                <ImageButton
+                    android:id="@+id/btn_fizz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/fizz" />
+
+                <ImageButton
+                    android:id="@+id/btn_galio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/galio" />
+
+                <ImageButton
+                    android:id="@+id/btn_gangplank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/gangplank" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/name_fiora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="菲歐拉" />
+
+                <TextView
+                    android:id="@+id/name_fizz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="飛斯" />
+
+                <TextView
+                    android:id="@+id/name_galio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="加里歐" />
+
+                <TextView
+                    android:id="@+id/name_gangplank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="剛普朗克" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btn_garen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/garen" />
+
+                <ImageButton
+                    android:id="@+id/btn_gnar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/gnar" />
+
+                <ImageButton
+                    android:id="@+id/btn_gragas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/gragas" />
+
+                <ImageButton
+                    android:id="@+id/btn_graves"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/graves" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/name_garen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="蓋倫" />
+
+                <TextView
+                    android:id="@+id/name_gnar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="吶兒" />
+
+                <TextView
+                    android:id="@+id/name_gragas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="古拉格斯" />
+
+                <TextView
+                    android:id="@+id/name_graves"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="葛雷夫" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btn_elise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/elise" />
+
+                <ImageButton
+                    android:id="@+id/btn_hecarim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/heimerdinger" />
+
+                <ImageButton
+                    android:id="@+id/btn_illaoi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/illaoi" />
+
+                <ImageButton
+                    android:id="@+id/btn_irelia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/irelia" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/name_hecarim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="赫克林" />
+
+                <TextView
+                    android:id="@+id/name_heimerdinger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="漢默丁格" />
+
+                <TextView
+                    android:id="@+id/name_illaoi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="伊羅旖" />
+
+                <TextView
+                    android:id="@+id/name_irelia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="伊瑞莉亞" />
+            </TableRow>
+        </TableLayout>
+
+    </ScrollView>
 
 
 
