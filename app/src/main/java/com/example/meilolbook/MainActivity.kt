@@ -13,11 +13,22 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.view.View
+import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
 
+    fun click_champion(v: View?){
+        when(v?.id){
+            R.id.btn_aatrox ->{
+                val intent = Intent(this,champion_intro::class.java)
+                startActivity(intent)
+            }
+
+        }
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
