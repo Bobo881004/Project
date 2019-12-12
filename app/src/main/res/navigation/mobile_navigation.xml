@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/nav_statistics"
         android:name="com.example.meilolbook.ui.statistics.StatisticsFragment"
-        android:label="@string/menu_statistics"
+        android:label="@string/frag_statistics"
         tools:layout="@layout/fragment_statistics" />
 
     <fragment

@@ -9,9 +9,15 @@
     <string name="menu_home">Home</string>
     <string name="menu_search">Search</string>
     <string name="menu_statistics">Statistics</string>
+    <string name="frag_statistics">前10大Pick英雄</string>
     <string name="menu_popular">Popular</string>
     <string name="title_activity_champion_intro">champion_intro</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
 
+    <string name = "text_top">TOP</string>
+    <string name = "text_jg">JG</string>
+    <string name = "text_mid">MID</string>
+    <string name = "text_adc">ADC</string>
+    <string name = "text_sup">SUP</string>
 </resources>
