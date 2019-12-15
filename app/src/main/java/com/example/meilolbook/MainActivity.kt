@@ -21,13 +21,11 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
 
     fun click_champion(v: View?){
-        when(v?.id){
-            R.id.btn_aatrox ->{
-                val intent = Intent(this,champion_intro::class.java)
-                startActivity(intent)
-            }
-
+        when(v?.id) {
+            R.id.btn_aatrox -> startActivity(Intent(this, champion_intro::class.java))
         }
+
+
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
