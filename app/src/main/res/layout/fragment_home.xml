@@ -2651,6 +2651,14 @@
                     android:layout_marginTop="10dp"
                     android:background="#000000"
                     app:srcCompat="@drawable/zyra" />
+
+                <ImageButton
+                    android:id="@+id/btn_aphelious"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#000000"
+                    app:srcCompat="@drawable/aphelios" />
             </TableRow>
 
             <TableRow>
@@ -2671,6 +2679,15 @@
                     android:layout_marginTop="5dp"
                     android:textColor="#FFFFFF"
                     android:text="枷蘿" />
+
+                <TextView
+                android:id="@+id/name_aphelious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:text="亞菲利歐" />
 
             </TableRow>
         </TableLayout>
