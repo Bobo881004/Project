@@ -12,6 +12,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.meilolbook.R
 import kotlinx.android.synthetic.main.fragment_statistics.*
+import android.util.Log
+import com.android.volley.toolbox.JsonArrayRequest
+import com.android.volley.toolbox.Volley
+import com.android.volley.Request
+import com.android.volley.Response
+import org.json.JSONArray
 
 
 class StatisticsFragment : Fragment() {
@@ -56,16 +62,30 @@ class StatisticsFragment : Fragment() {
             heroSTform.add(STtmp)
         }
 
-        statisticsViewModel.sethero()
-        val len = statisticsViewModel.getlen()
-        for(i in 0 until len)
-        {
-            var row = statisticsViewModel.getheroPosition(i)
-            var col = statisticsViewModel.getherTier(i)
-            var id = getResources().getIdentifier(statisticsViewModel.getheroName(i), "drawable", getActivity()?.getPackageName())
-            heroNameform[row][col].setImageResource(id)
-            heroSTform[row][col].setText("" + statisticsViewModel.getheroST(i) +"%")
+        for(i in 0 until 5) {
+            for (j in 0 until 10) {
+
+                var url = statisticsViewModel.getURL(i)
+                val que = Volley.newRequestQueue(context)
+                val req = JsonArrayRequest(Request.Method.GET, url, null,
+                    Response.Listener<JSONArray> { response ->
+                        Log.i("response", response.toString())
+                    },
+                    Response.ErrorListener { error ->
+                        Log.e("ResponseError", error.toString())
+                    })
+                que.add(req)
+
+//                var id = getResources().getIdentifier(
+//                    statisticsViewModel.getheroName(i),
+//                    "drawable",
+//                    getActivity()?.getPackageName()
+//                )
+//                heroNameform[i][j].setImageResource(id)
+//                heroSTform[i][j].setText("" + statisticsViewModel.getheroST(i) + "%")
+            }
         }
+
         return root
     }
 }
