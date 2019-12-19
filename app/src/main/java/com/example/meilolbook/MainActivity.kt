@@ -20,7 +20,16 @@ class MainActivity : AppCompatActivity() {
 
     fun click_champion(v: View?){
         when(v?.id) {
-            R.id.btn_aatrox -> startActivity(Intent(this, champion_intro::class.java))
+            R.id.btn_aatrox ->{
+                var intent = Intent(this, champion_intro::class.java)
+                intent.putExtra("champion_name","aatrox")
+                startActivity(intent)
+            }
+            R.id.btn_ahri ->{
+                var intent = Intent(this, champion_intro::class.java)
+                intent.putExtra("champion_name","ahri")
+                startActivity(intent)
+            }
         }
 
 
