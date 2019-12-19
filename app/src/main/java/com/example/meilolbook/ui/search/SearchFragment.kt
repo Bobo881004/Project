@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import com.example.meilolbook.R
 import android.content.Context
+import android.content.res.Resources
 import android.graphics.Bitmap
 import android.widget.*
 import com.android.volley.*
@@ -202,6 +203,9 @@ class CustomAdapter(var context: Context, var champion:ArrayList<ListView_save>)
         viewHolder.txtName.text = cham.cname
         viewHolder.txtDate.text = cham.date
 
+        val id = context.resources.getIdentifier(cham.image.toLowerCase(), "drawable", context.packageName)
+        viewHolder.ivImage.setImageResource(id)
+
 
 
         val url = proto + region + hosts + mode["match"] + cham.matchId.toString() + api_key
@@ -249,11 +253,11 @@ class CustomAdapter(var context: Context, var champion:ArrayList<ListView_save>)
             Response.ErrorListener {})
         queue.add(jsonReq)
 
-        val imgReq = ImageRequest("http://ddragon.leagueoflegends.com/cdn/9.3.1/img/champion/${cham.image}.png",
-            Response.Listener<Bitmap> {
-                viewHolder.ivImage.setImageBitmap(it)
-            }, 0, 0, Bitmap.Config.RGB_565, Response.ErrorListener {})
-        queue.add(imgReq)
+//        val imgReq = ImageRequest("http://ddragon.leagueoflegends.com/cdn/9.3.1/img/champion/${cham.image}.png",
+//            Response.Listener<Bitmap> {
+//                viewHolder.ivImage.setImageBitmap(it)
+//            }, 0, 0, Bitmap.Config.RGB_565, Response.ErrorListener {})
+//        queue.add(imgReq)
 
         return  view as View
     }
