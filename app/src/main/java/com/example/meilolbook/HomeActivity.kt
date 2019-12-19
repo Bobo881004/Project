@@ -19,7 +19,7 @@ class HomeActivity(var champion_name : String?) : Fragment() {
         val root =inflater.inflate(R.layout.champion_home,container,false)
         var champion_picture = root.findViewById(R.id.use_this) as ImageView
         var drawableid = resources.getIdentifier(name,"drawable",activity?.getPackageName())
-        Log.i("findme_HomeActivity","圖片_aatorx_drawableid 為" + drawableid)
+        Log.i("findme_HomeActivity","圖片_"+name+"_drawableid 為" + drawableid)
         champion_picture.setImageResource(drawableid)
 
         return root
