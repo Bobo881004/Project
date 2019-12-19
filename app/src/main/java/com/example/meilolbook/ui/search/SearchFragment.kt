@@ -64,12 +64,6 @@ class SearchFragment : Fragment() {
         val root = inflater.inflate(R.layout.fragment_search, container, false)
         super.onCreate(savedInstanceState)
 
-        val spinner = root.findViewById(R.id.region_spinner) as Spinner
-
-        val nAdapter = ArrayAdapter.createFromResource(spinner.context, R.array.region_arr, android.R.layout.simple_spinner_item)
-        nAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spinner.adapter = nAdapter
-
         val btn = root.findViewById(R.id.btnSearch) as Button
         btn.setOnClickListener(View.OnClickListener {
             searchSummoner(it)

@@ -18,12 +18,12 @@ private val TAB_TITLES = arrayOf(
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
  * one of the sections/tabs/pages.
  */
-class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :
+class SectionsPagerAdapter(private val context: Context, fm: FragmentManager, var  champion_name : String?) :
     FragmentPagerAdapter(fm) {
 
     override fun getItem(position: Int): Fragment {
         when(position){
-            0 -> return HomeActivity()
+            0 -> return HomeActivity(champion_name)
             1 -> return RoutineActivity()
             else -> return LaneActivity()
         }

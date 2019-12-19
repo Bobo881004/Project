@@ -17,10 +17,10 @@ class champion_intro : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-
+        val name = intent.getStringExtra("champion_name")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_champion_intro2)
-        val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
+        val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager,name)
         val viewPager: ViewPager = findViewById(R.id.view_pager)
         viewPager.adapter = sectionsPagerAdapter
         val tabs: TabLayout = findViewById(R.id.tabs)
