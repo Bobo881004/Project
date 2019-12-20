@@ -32,8 +32,8 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager, va
     override fun getPageTitle(position: Int): CharSequence? {
         when(position){
             0 -> return "Home"
-            1 -> return "Routine"
-            2 -> return "Lane"
+            1 -> return "Rune"
+            2 -> return "Item"
         }
         return null
     }
