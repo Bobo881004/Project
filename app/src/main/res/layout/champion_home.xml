@@ -1,15 +1,234 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/layout_relative">
 
     <ImageView
-        android:id="@+id/use_this"
-        android:layout_width="match_parent"
+        android:id="@+id/input_picture"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/aatrox">
-    </ImageView>
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        app:srcCompat="@drawable/aatrox"/>
 
-</LinearLayout>
+
+    <TextView
+        android:id="@+id/text_winrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_toRightOf="@+id/input_picture"
+        android:layout_toEndOf="@+id/input_picture"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:text="勝率" />
+
+    <TextView
+        android:id="@+id/input_winrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_toRightOf="@+id/input_picture"
+        android:layout_toEndOf="@+id/input_picture"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:text="100%" />
+
+    <TextView
+        android:id="@+id/text_pickrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toRightOf="@+id/text_winrate"
+        android:layout_toEndOf="@+id/text_winrate"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:text="遊玩率" />
+
+    <TextView
+        android:id="@+id/input_pickrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toRightOf="@+id/text_winrate"
+        android:layout_toEndOf="@+id/text_winrate"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:text="100%" />
+
+    <TextView
+        android:id="@+id/text_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toRightOf="@+id/text_pickrate"
+        android:layout_toEndOf="@+id/text_pickrate"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:text="定位" />
+
+    <TextView
+        android:id="@+id/input_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toRightOf="@+id/text_pickrate"
+        android:layout_toEndOf="@+id/text_pickrate"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:text="五路皆神" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                app:srcCompat="@drawable/manamune"/>
+
+            <ImageView
+                android:id="@+id/item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/manamune"/>
+
+            <ImageView
+                android:id="@+id/item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/manamune"/>
+
+            <ImageView
+                android:id="@+id/item4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/manamune"/>
+
+            <ImageView
+                android:id="@+id/item5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/manamune"/>
+
+            <ImageView
+                android:id="@+id/item6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/manamune"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/start_item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/doranshield"/>
+
+            <ImageView
+                android:id="@+id/start_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/health_potation"/>
+
+            <ImageView
+                android:id="@+id/start_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/sight_ward"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/summoner_spell1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/flash"/>
+
+            <ImageView
+                android:id="@+id/summoner_spell2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/teleport"/>
+
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#FFFFFF" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:typeface="serif"
+                android:textSize="25sp"
+                android:text="@string/aatrox"/>
+        </ScrollView>
+    </TableLayout>
+
+
+
+
+
+</RelativeLayout>
