@@ -84,8 +84,7 @@ class SearchFragment : Fragment() {
 
         if(region == "TW")
         {
-            val a = "TLEÜICEJJ"
-            val url = "https://acs-garena.leagueoflegends.com/v1/players?region=TW&name=" + a
+            val url = "https://acs-garena.leagueoflegends.com/v1/players?region=TW&name=" + summonerName.text
 
             val jsonReq = JsonObjectRequest(Request.Method.GET, url, null,
                 Response.Listener {
