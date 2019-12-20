@@ -35,6 +35,7 @@ class StatisticsFragment : Fragment() {
 
         val heroNameform : MutableList<MutableList<ImageView>> = arrayListOf()
         val heroSTform : MutableList<MutableList<TextView>> = arrayListOf()
+
         val heroName_id = listOf(
             listOf(R.id.image_top_1, R.id.image_top_2, R.id.image_top_3, R.id.image_top_4, R.id.image_top_5, R.id.image_top_6, R.id.image_top_7, R.id.image_top_8, R.id.image_top_9, R.id.image_top_10),
             listOf(R.id.image_jg_1, R.id.image_jg_2, R.id.image_jg_3, R.id.image_jg_4, R.id.image_jg_5, R.id.image_jg_6, R.id.image_jg_7, R.id.image_jg_8, R.id.image_jg_9, R.id.image_jg_10),
@@ -71,22 +72,23 @@ class StatisticsFragment : Fragment() {
                     Response.Listener<JSONArray> { response ->
                         Log.i("response_get123", response.toString())
                         statisticsViewModel.loaddata(response,i)
+                        for(j in 0 until 10)
+                        {
+                            var id = getResources().getIdentifier(
+                                statisticsViewModel.getheroName(j),
+                                "drawable",
+                                getActivity()?.getPackageName()
+                            )
+                            heroNameform[i][j].setImageResource(id)
+                            heroSTform[i][j].setText("" + statisticsViewModel.getheroST(j) + "%")
+                        }
                     },
                     Response.ErrorListener { error ->
                         Log.e("ResponseError", error.toString())
                     })
                 que.add(req)
 
-//                for(j in 0 until 10)
-//                {
-////                    var id = getResources().getIdentifier(
-////                        statisticsViewModel.getheroName(i),
-////                        "drawable",
-////                        getActivity()?.getPackageName()
-////                    )
-////                    heroNameform[i][j].setImageResource(id)
-//                    heroSTform[i][j].setText("" + statisticsViewModel.getheroST(i) + "%")
-//                }
+
 
         }
 
