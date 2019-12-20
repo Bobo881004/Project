@@ -1,4 +1,6 @@
 package com.example.meilolbook.ui.statistics
+import android.util.Log
+import org.json.JSONObject
 
 class Hero_Model {
     var heroPosition:Int = 0

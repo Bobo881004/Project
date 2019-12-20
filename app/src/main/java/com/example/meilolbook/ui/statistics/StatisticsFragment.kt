@@ -62,29 +62,34 @@ class StatisticsFragment : Fragment() {
             heroSTform.add(STtmp)
         }
 
-        for(i in 0 until 5) {
-            for (j in 0 until 10) {
-
+        for(i in 0 until 5)
+        {
                 var url = statisticsViewModel.getURL(i)
+                Log.i("response_get_0", url)
                 val que = Volley.newRequestQueue(context)
                 val req = JsonArrayRequest(Request.Method.GET, url, null,
                     Response.Listener<JSONArray> { response ->
-                        Log.i("response", response.toString())
+                        Log.i("response_get123", response.toString())
+                        statisticsViewModel.loaddata(response,i)
                     },
                     Response.ErrorListener { error ->
                         Log.e("ResponseError", error.toString())
                     })
                 que.add(req)
 
-//                var id = getResources().getIdentifier(
-//                    statisticsViewModel.getheroName(i),
-//                    "drawable",
-//                    getActivity()?.getPackageName()
-//                )
-//                heroNameform[i][j].setImageResource(id)
-//                heroSTform[i][j].setText("" + statisticsViewModel.getheroST(i) + "%")
-            }
+//                for(j in 0 until 10)
+//                {
+////                    var id = getResources().getIdentifier(
+////                        statisticsViewModel.getheroName(i),
+////                        "drawable",
+////                        getActivity()?.getPackageName()
+////                    )
+////                    heroNameform[i][j].setImageResource(id)
+//                    heroSTform[i][j].setText("" + statisticsViewModel.getheroST(i) + "%")
+//                }
+
         }
+
 
         return root
     }
