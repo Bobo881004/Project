@@ -46,7 +46,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="30"
+                    android:text="Unknow"
                     android:textSize="30dp" />
             </LinearLayout>
 
@@ -65,7 +65,7 @@
                     android:id="@+id/profile_revision"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="0"
+                    android:text="Unknown"
                     android:textSize="30dp" />
             </LinearLayout>
 

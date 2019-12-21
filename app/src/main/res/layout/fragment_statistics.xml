@@ -9,12 +9,13 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF">
+        android:background="#000000">
 
 
         <TableLayout
             android:layout_width="409dp"
             android:layout_height="694dp"
+            android:background="#000000"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
@@ -27,8 +28,8 @@
                     android:layout_height="41dp"
                     android:gravity="center_horizontal"
                     android:text="@string/text_top"
-                    android:textSize="24sp"
-                    android:visibility="visible" />
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/text_jg"
@@ -36,6 +37,7 @@
                     android:layout_height="40dp"
                     android:gravity="center_horizontal"
                     android:text="@string/text_jg"
+                    android:textColor="#FFFFFF"
                     android:textSize="24sp" />
 
                 <TextView
@@ -44,6 +46,7 @@
                     android:layout_height="40dp"
                     android:gravity="center_horizontal"
                     android:text="@string/text_mid"
+                    android:textColor="#FFFFFF"
                     android:textSize="24sp" />
 
                 <TextView
@@ -52,6 +55,7 @@
                     android:layout_height="40dp"
                     android:gravity="center_horizontal"
                     android:text="@string/text_adc"
+                    android:textColor="#FFFFFF"
                     android:textSize="24sp" />
 
                 <TextView
@@ -61,6 +65,7 @@
                     android:gravity="center_horizontal"
                     android:text="@string/text_sup"
                     android:textSize="24sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
             </TableRow>
@@ -106,6 +111,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -114,6 +120,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -122,6 +129,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -130,6 +138,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -138,6 +147,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
             <!-- second row-->
@@ -182,6 +192,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -190,6 +201,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -198,6 +210,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -206,6 +219,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -214,6 +228,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
             <!-- third row-->
@@ -258,6 +273,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -266,6 +282,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -274,6 +291,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -282,6 +300,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -290,6 +309,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
             <!-- forth row-->
@@ -334,6 +354,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -342,6 +363,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -350,6 +372,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -358,6 +381,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -366,6 +390,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
             <!-- fifth row-->
@@ -410,6 +435,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -418,6 +444,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -426,6 +453,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -434,6 +462,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -442,6 +471,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
             <!-- sixth row-->
@@ -486,6 +516,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -494,6 +525,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -502,6 +534,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -510,6 +543,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -518,6 +552,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
             <!-- seventh row-->
@@ -562,6 +597,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -570,6 +606,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -578,6 +615,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -586,6 +624,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -594,6 +633,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
             <!-- eighth row-->
@@ -638,6 +678,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -646,6 +687,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -654,6 +696,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -662,6 +705,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -670,6 +714,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
             <!-- ninth row-->
@@ -714,6 +759,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -722,6 +768,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -730,6 +777,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -738,6 +786,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -746,6 +795,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
             <!-- tenth row-->
@@ -790,6 +840,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -798,6 +849,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -806,6 +858,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -814,6 +867,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
 
                 <TextView
@@ -822,6 +876,7 @@
                     android:layout_height="20dp"
                     android:gravity="center_horizontal"
                     android:textSize="15sp"
+                    android:textColor="#FFFFFF"
                     app:fontFamily="sans-serif" />
             </TableRow>
         </TableLayout>
