@@ -23,11 +23,6 @@
         android:label="@string/frag_statistics"
         tools:layout="@layout/fragment_statistics" />
 
-    <fragment
-        android:id="@+id/nav_popular"
-        android:name="com.example.meilolbook.ui.popular.PopularFragment"
-        android:label="@string/menu_popular"
-        tools:layout="@layout/fragment_popular" />
 
 
 </navigation>
