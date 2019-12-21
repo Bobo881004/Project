@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <TextView
+        android:id="@+id/skill_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:text="技能點法:R > Q > W > E" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/spell_p"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/aatrox_p" />
+
+            <TextView
+                android:id="@+id/description_p"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:lines="5"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/aatrox_description_p"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow>
+
+        </TableRow>
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/spell_q"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/aatrox_q" />
+
+            <TextView
+                android:id="@+id/description_q"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="@string/aatrox_description_q"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/spell_w"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/aatrox_w" />
+
+            <TextView
+                android:id="@+id/description_w"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/aatrox_description_w"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+        </TableRow>
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/spell_e"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/aatrox_e" />
+
+                <TextView
+                    android:id="@+id/description_e"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/aatrox_description_e"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/spell_r"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/aatrox_r" />
+
+            <TextView
+                android:id="@+id/description_r"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/aatrox_description_r"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>

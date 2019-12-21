@@ -17,7 +17,7 @@ class champion_intro : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        val name = intent.getStringExtra("champion_name")
+        val name = intent.getSerializableExtra("champion_data") as champion
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_champion_intro2)
         val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager,name)
@@ -25,12 +25,12 @@ class champion_intro : AppCompatActivity() {
         viewPager.adapter = sectionsPagerAdapter
         val tabs: TabLayout = findViewById(R.id.tabs)
         tabs.setupWithViewPager(viewPager)
-        val fab: FloatingActionButton = findViewById(R.id.fab)
-
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
+//        val fab: FloatingActionButton = findViewById(R.id.fab)
+//
+//        fab.setOnClickListener { view ->
+//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                .setAction("Action", null).show()
+//        }
 
 
     }

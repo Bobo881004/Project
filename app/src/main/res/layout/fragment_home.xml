@@ -6,10 +6,7 @@
     android:layout_height="match_parent"
     android:background="#000000">
 
-
-
-
-        <TextView
+    <TextView
             android:id="@+id/text_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -54,8 +51,9 @@
                     android:id="@+id/btn_akali"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/akali" />
 
                 <ImageButton
@@ -64,6 +62,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/alistar" />
 
 
@@ -118,6 +117,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/amumu" />
 
                 <ImageButton
@@ -126,6 +126,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/anivia" />
 
                 <ImageButton
@@ -134,6 +135,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/annie" />
 
                 <ImageButton
@@ -142,6 +144,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/ashe" />
             </TableRow>
 
@@ -191,6 +194,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/aurelionsol" />
 
                 <ImageButton
@@ -199,6 +203,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/azir" />
 
                 <ImageButton
@@ -207,6 +212,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/bard" />
 
                 <ImageButton
@@ -215,6 +221,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/blitzcrank" />
             </TableRow>
 
@@ -263,6 +270,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/brand" />
 
                 <ImageButton
@@ -271,6 +279,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/braum" />
 
                 <ImageButton
@@ -279,6 +288,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/caitlyn" />
 
                 <ImageButton
@@ -287,6 +297,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/camille" />
             </TableRow>
 
@@ -335,6 +346,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/cassiopeia" />
 
                 <ImageButton
@@ -343,6 +355,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/chogath" />
 
                 <ImageButton
@@ -351,6 +364,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/corki" />
 
                 <ImageButton
@@ -359,6 +373,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/darius" />
             </TableRow>
 
@@ -407,6 +422,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/diana" />
 
                 <ImageButton
@@ -415,6 +431,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/draven" />
 
                 <ImageButton
@@ -423,6 +440,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/drmundo" />
 
                 <ImageButton
@@ -431,6 +449,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/ekko" />
             </TableRow>
 
@@ -479,6 +498,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/elise" />
 
                 <ImageButton
@@ -487,6 +507,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/evelynn" />
 
                 <ImageButton
@@ -495,6 +516,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/ezreal" />
 
                 <ImageButton
@@ -503,6 +525,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/fiddlesticks" />
             </TableRow>
 
@@ -551,6 +574,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/fiora" />
 
                 <ImageButton
@@ -559,6 +583,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/fizz" />
 
                 <ImageButton
@@ -575,6 +600,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/gangplank" />
             </TableRow>
 
@@ -623,6 +649,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/garen" />
 
                 <ImageButton
@@ -631,6 +658,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/gnar" />
 
                 <ImageButton
@@ -639,6 +667,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/gragas" />
 
                 <ImageButton
@@ -647,6 +676,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/graves" />
             </TableRow>
 
@@ -684,25 +714,28 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:layout_marginTop="5dp"
+                    android:onClick="click_champion"
                     android:textColor="#FFFFFF"
                     android:text="葛雷夫" />
             </TableRow>
 
             <TableRow>
                 <ImageButton
-                    android:id="@+id/btn_elise"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="#000000"
-                    android:layout_marginTop="10dp"
-                    app:srcCompat="@drawable/elise" />
-
-                <ImageButton
                     android:id="@+id/btn_hecarim"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
+                    app:srcCompat="@drawable/hecarim" />
+
+                <ImageButton
+                    android:id="@+id/btn_heimerdinger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/heimerdinger" />
 
                 <ImageButton
@@ -711,6 +744,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/illaoi" />
 
                 <ImageButton
@@ -719,6 +753,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/irelia" />
             </TableRow>
 
@@ -767,6 +802,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/ivern" />
 
                 <ImageButton
@@ -775,6 +811,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/janna" />
 
                 <ImageButton
@@ -783,6 +820,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/jarvaniv" />
 
                 <ImageButton
@@ -791,6 +829,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/jax" />
             </TableRow>
 
@@ -839,6 +878,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/jayce" />
 
                 <ImageButton
@@ -847,6 +887,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/jhin" />
 
                 <ImageButton
@@ -855,6 +896,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/jinx" />
 
                 <ImageButton
@@ -863,6 +905,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/kaisa" />
             </TableRow>
 
@@ -911,6 +954,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/kalista" />
 
                 <ImageButton
@@ -919,6 +963,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/karma" />
 
                 <ImageButton
@@ -927,6 +972,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/karthus" />
 
                 <ImageButton
@@ -935,6 +981,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/kassadin" />
             </TableRow>
 
@@ -983,6 +1030,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/katarina" />
 
                 <ImageButton
@@ -991,6 +1039,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/kayle" />
 
                 <ImageButton
@@ -999,6 +1048,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/kayn" />
 
                 <ImageButton
@@ -1007,6 +1057,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/kennen" />
             </TableRow>
 
@@ -1021,7 +1072,8 @@
                     android:text="卡特蓮娜" />
 
                 <TextView
-                    android:id="@+id/name_kayle"                    android:layout_width="wrap_content"
+                    android:id="@+id/name_kayle"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:layout_marginTop="5dp"
@@ -1054,6 +1106,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/khazix" />
 
                 <ImageButton
@@ -1062,6 +1115,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/kindred" />
 
                 <ImageButton
@@ -1070,6 +1124,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/kled" />
 
                 <ImageButton
@@ -1078,6 +1133,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/kogmaw" />
             </TableRow>
 
@@ -1126,6 +1182,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/leblanc" />
 
                 <ImageButton
@@ -1134,6 +1191,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/leesin" />
 
                 <ImageButton
@@ -1150,6 +1208,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/lissandra" />
 
             </TableRow>
@@ -1199,6 +1258,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/lucian" />
 
                 <ImageButton
@@ -1207,6 +1267,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/lulu" />
 
                 <ImageButton
@@ -1215,6 +1276,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/lux" />
 
 
@@ -1225,6 +1287,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/malphite" />
             </TableRow>
 
@@ -1273,6 +1336,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/malzahar" />
 
                 <ImageButton
@@ -1281,6 +1345,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/maokai" />
 
                 <ImageButton
@@ -1289,6 +1354,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/masteryi" />
 
                 <ImageButton
@@ -1297,6 +1363,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/missfortune" />
             </TableRow>
 
@@ -1345,6 +1412,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/monkeyking" />
 
                 <ImageButton
@@ -1353,6 +1421,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/mordekaiser" />
 
                 <ImageButton
@@ -1361,6 +1430,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/morgana" />
 
                 <ImageButton
@@ -1369,6 +1439,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/nami" />
             </TableRow>
 
@@ -1417,6 +1488,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/nasus" />
 
                 <ImageButton
@@ -1425,6 +1497,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/nautilus" />
 
                 <ImageButton
@@ -1433,6 +1506,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/neeko" />
 
                 <ImageButton
@@ -1441,6 +1515,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/nidalee" />
             </TableRow>
 
@@ -1489,6 +1564,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/nocturne" />
 
                 <ImageButton
@@ -1497,6 +1573,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/nunu" />
 
                 <ImageButton
@@ -1505,6 +1582,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/olaf" />
 
                 <ImageButton
@@ -1513,6 +1591,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/orianna" />
             </TableRow>
 
@@ -1561,6 +1640,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/ornn" />
 
                 <ImageButton
@@ -1569,6 +1649,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/pantheon" />
 
                 <ImageButton
@@ -1577,6 +1658,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/poppy" />
 
                 <ImageButton
@@ -1585,6 +1667,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/pyke" />
             </TableRow>
 
@@ -1633,6 +1716,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/qiyana" />
 
                 <ImageButton
@@ -1641,6 +1725,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/quinn" />
 
                 <ImageButton
@@ -1649,6 +1734,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/rakan" />
 
                 <ImageButton
@@ -1657,6 +1743,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/rammus" />
             </TableRow>
 
@@ -1677,6 +1764,7 @@
                     android:gravity="center"
                     android:layout_marginTop="5dp"
                     android:textColor="#FFFFFF"
+
                     android:text="葵恩" />
 
                 <TextView
@@ -1705,6 +1793,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/reksai" />
 
                 <ImageButton
@@ -1713,6 +1802,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/renekton" />
 
                 <ImageButton
@@ -1721,6 +1811,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/rengar" />
 
                 <ImageButton
@@ -1729,6 +1820,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/riven" />
             </TableRow>
 
@@ -1777,6 +1869,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/rumble" />
 
                 <ImageButton
@@ -1785,6 +1878,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/ryze" />
 
                 <ImageButton
@@ -1793,6 +1887,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/sejuani" />
 
                 <ImageButton
@@ -1801,6 +1896,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/senna" />
             </TableRow>
 
@@ -1849,6 +1945,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/shaco" />
 
                 <ImageButton
@@ -1857,6 +1954,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/shen" />
 
                 <ImageButton
@@ -1865,6 +1963,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/shyvana" />
 
                 <ImageButton
@@ -1873,6 +1972,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/singed" />
             </TableRow>
 
@@ -1921,6 +2021,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/sion" />
 
                 <ImageButton
@@ -1929,6 +2030,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/sivir" />
 
                 <ImageButton
@@ -1937,6 +2039,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/skarner" />
 
                 <ImageButton
@@ -1945,7 +2048,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/sona" />
+
+
             </TableRow>
 
             <TableRow>
@@ -1993,6 +2099,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/soraka" />
 
                 <ImageButton
@@ -2001,6 +2108,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/swain" />
 
                 <ImageButton
@@ -2009,6 +2117,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/sylas" />
 
                 <ImageButton
@@ -2017,6 +2126,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/syndra" />
             </TableRow>
 
@@ -2064,6 +2174,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/tahmkench" />
 
                 <ImageButton
@@ -2072,6 +2183,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/taliyah" />
 
                 <ImageButton
@@ -2080,6 +2192,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/talon" />
 
                 <ImageButton
@@ -2088,6 +2201,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/taric" />
             </TableRow>
 
@@ -2136,6 +2250,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/teemo" />
 
                 <ImageButton
@@ -2144,6 +2259,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/thresh" />
 
                 <ImageButton
@@ -2152,6 +2268,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/tristana" />
 
                 <ImageButton
@@ -2159,6 +2276,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     android:background="#000000"
                     app:srcCompat="@drawable/trundle" />
             </TableRow>
@@ -2210,6 +2328,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/tryndamere" />
 
                 <ImageButton
@@ -2218,6 +2337,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/twistedfate" />
 
                 <ImageButton
@@ -2226,14 +2346,16 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/twitch" />
 
                 <ImageButton
-                    android:id="@+id/btn_twitch"
+                    android:id="@+id/btn_udyr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/udyr" />
             </TableRow>
 
@@ -2282,14 +2404,15 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/urgot" />
-
                 <ImageButton
                     android:id="@+id/btn_varus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/varus" />
 
                 <ImageButton
@@ -2298,6 +2421,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/vayne" />
 
                 <ImageButton
@@ -2306,6 +2430,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/veigar" />
             </TableRow>
 
@@ -2354,6 +2479,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/velkoz" />
 
                 <ImageButton
@@ -2362,6 +2488,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/vi" />
 
                 <ImageButton
@@ -2370,6 +2497,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/viktor" />
 
                 <ImageButton
@@ -2378,6 +2506,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/vladimir" />
             </TableRow>
 
@@ -2426,6 +2555,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/volibear" />
 
                 <ImageButton
@@ -2434,6 +2564,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/warwick" />
 
                 <ImageButton
@@ -2442,6 +2573,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/xayah" />
 
                 <ImageButton
@@ -2450,6 +2582,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/xerath" />
             </TableRow>
 
@@ -2498,6 +2631,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/xinzhao" />
 
                 <ImageButton
@@ -2506,6 +2640,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/yasuo" />
 
                 <ImageButton
@@ -2514,6 +2649,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/yorick" />
 
                 <ImageButton
@@ -2522,6 +2658,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/yuumi" />
             </TableRow>
 
@@ -2570,6 +2707,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/zac" />
 
                 <ImageButton
@@ -2578,6 +2716,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/zed" />
 
                 <ImageButton
@@ -2586,6 +2725,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/ziggs" />
 
                 <ImageButton
@@ -2594,6 +2734,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/zilean" />
             </TableRow>
 
@@ -2643,6 +2784,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/zoe" />
 
                 <ImageButton
@@ -2651,6 +2793,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/zyra" />
 
                 <ImageButton
@@ -2659,6 +2802,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/aphelios" />
             </TableRow>
 
