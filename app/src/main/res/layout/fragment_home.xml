@@ -368,7 +368,7 @@
                     app:srcCompat="@drawable/corki" />
 
                 <ImageButton
-                    android:id="@+id/btn_dairus"
+                    android:id="@+id/btn_darius"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#000000"
@@ -591,6 +591,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#000000"
+                    android:onClick="click_champion"
                     android:layout_marginTop="10dp"
                     app:srcCompat="@drawable/galio" />
 
@@ -815,7 +816,7 @@
                     app:srcCompat="@drawable/janna" />
 
                 <ImageButton
-                    android:id="@+id/btn_jarvanIV"
+                    android:id="@+id/btn_jarvaniv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#000000"
@@ -853,7 +854,7 @@
                     android:text="珍娜" />
 
                 <TextView
-                    android:id="@+id/name_jarvanIV"
+                    android:id="@+id/name_jarvaniv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
