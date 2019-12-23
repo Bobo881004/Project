@@ -1201,6 +1201,7 @@
                     android:layout_height="wrap_content"
                     android:background="#000000"
                     android:layout_marginTop="10dp"
+                    android:onClick="click_champion"
                     app:srcCompat="@drawable/leona" />
 
                 <ImageButton
@@ -1283,7 +1284,7 @@
 
 
                 <ImageButton
-                    android:id="@+id/btn_malphite_"
+                    android:id="@+id/btn_malphite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#000000"
@@ -2654,7 +2655,7 @@
                     app:srcCompat="@drawable/yorick" />
 
                 <ImageButton
-                    android:id="@+id/btn_yummi"
+                    android:id="@+id/btn_yuumi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -2798,7 +2799,7 @@
                     app:srcCompat="@drawable/zyra" />
 
                 <ImageButton
-                    android:id="@+id/btn_aphelious"
+                    android:id="@+id/btn_aphelios"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -2827,7 +2828,7 @@
                     android:text="枷蘿" />
 
                 <TextView
-                android:id="@+id/name_aphelious"
+                android:id="@+id/name_aphelios"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
