@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/aatrox_p" />
+                app:srcCompat="@drawable/ahri_p" />
 
             <TextView
                 android:id="@+id/description_p"
@@ -37,7 +37,6 @@
                 android:lines="5"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/aatrox_description_p"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
         </TableRow>
@@ -52,7 +51,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/aatrox_q" />
+                android:background="@drawable/bg_back"
+
+                app:srcCompat="@drawable/ahri_q" />
 
             <TextView
                 android:id="@+id/description_q"
@@ -61,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
 
-                android:text="@string/aatrox_description_q"
+                android:text="@string/aatrox_desc_q"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
         </TableRow>
@@ -81,7 +82,7 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/aatrox_description_w"
+                android:text="@string/aatrox_desc_w"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
         </TableRow>
@@ -100,7 +101,7 @@
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/aatrox_description_e"
+                    android:text="@string/aatrox_desc_e"
                     android:textColor="#FFFFFF"
                     android:textSize="15sp" />
             </TableRow>
@@ -120,7 +121,7 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/aatrox_description_r"
+                android:text="@string/aatrox_desc_r"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
         </TableRow>
