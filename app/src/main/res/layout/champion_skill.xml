@@ -14,12 +14,16 @@
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        android:text="技能點法:R > Q > W > E" />
+        android:text="技能點法:" />
 
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <TableRow>
 
@@ -36,9 +40,9 @@
                 android:layout_weight="1"
                 android:lines="5"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:textColor="#FFFFFF"
-                android:textSize="15sp" />
+                android:textSize="15sp"/>
         </TableRow>
 
         <TableRow>
@@ -50,19 +54,18 @@
                 android:id="@+id/spell_q"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bg_back"
-
                 app:srcCompat="@drawable/ahri_q" />
 
             <TextView
                 android:id="@+id/description_q"
                 android:layout_width="0dp"
                 android:layout_weight="1"
+                android:lines="5"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-
-                android:text="@string/aatrox_desc_q"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
         </TableRow>
@@ -73,8 +76,9 @@
                 android:id="@+id/spell_w"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/bg_back"
                 android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/aatrox_w" />
+                app:srcCompat="@drawable/ahri_w" />
 
             <TextView
                 android:id="@+id/description_w"
@@ -82,7 +86,7 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/aatrox_desc_w"
+                android:lines="5"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
         </TableRow>
@@ -92,16 +96,17 @@
                     android:id="@+id/spell_e"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/bg_back"
                     android:layout_marginTop="10dp"
-                    app:srcCompat="@drawable/aatrox_e" />
+                    app:srcCompat="@drawable/ahri_e" />
 
                 <TextView
                     android:id="@+id/description_e"
                     android:layout_width="0dp"
                     android:layout_weight="1"
+                    android:lines="5"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/aatrox_desc_e"
                     android:textColor="#FFFFFF"
                     android:textSize="15sp" />
             </TableRow>
@@ -111,9 +116,10 @@
             <ImageView
                 android:id="@+id/spell_r"
                 android:layout_width="match_parent"
+                android:background="@drawable/bg_back"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/aatrox_r" />
+                app:srcCompat="@drawable/ahri_r" />
 
             <TextView
                 android:id="@+id/description_r"
@@ -121,13 +127,15 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/aatrox_desc_r"
+                android:lines="5"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
         </TableRow>
 
 
+
+
     </TableLayout>
 
-
+</ScrollView>
 </LinearLayout>
