@@ -21,8 +21,8 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager, va
     override fun getItem(position: Int): Fragment {
         when(position){
             0 -> return HomeActivity(champion_data)
-            1 -> return SkillActivity(champion_data)
-            else -> return RuneActivity()
+            else -> return SkillActivity(champion_data)
+//            else -> return RuneActivity()
         }
     }
 
@@ -30,13 +30,13 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager, va
         when(position){
             0 -> return "Home"
             1 -> return "Skill"
-            2 -> return "Rune"
+//            2 -> return "Rune"
         }
         return null
     }
 
     override fun getCount(): Int {
         // Show 2 total pages.
-        return 3
+        return 2
     }
 }

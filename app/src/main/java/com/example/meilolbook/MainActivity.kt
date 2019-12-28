@@ -440,7 +440,7 @@ class MainActivity : AppCompatActivity() {
                 data.pickrate = "2.12%"
                 data.position = "中路"
                 data.skillorder = "R>E>Q>W"
-                data.item1 = "i3207"
+                data.item1 = "i3027"
                 data.item2 = "i3048"
                 data.item3 = "i3116"
                 data.item4 = "i3151"
@@ -570,7 +570,7 @@ class MainActivity : AppCompatActivity() {
                 data.item2 = "i3111"
                 data.item3 = "i3065"
                 data.item4 = "i3075"
-                data.item5 = "i3082"
+                data.item5 = "i3083"
                 data.item6 = "i3193"
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
@@ -2003,7 +2003,7 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3858"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite                                                                                       "
+                data.summonerspell1 = "smite"
                 data.summonerspell2 = "flash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
