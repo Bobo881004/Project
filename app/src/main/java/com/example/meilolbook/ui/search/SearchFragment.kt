@@ -326,7 +326,7 @@ class SearchFragment : Fragment() {
     {
         listview.setOnItemClickListener { parent, view, position, id ->
             val matchIdURL = (parent.getItemAtPosition(position) as ListView_save).matchIdURL
-            Log.i("custom", matchIdURL)
+//            Log.i("custom", matchIdURL)
             val intent = Intent(activity, ListClickedActivity::class.java)
 
             var bundle = Bundle()
