@@ -26,6 +26,7 @@ import com.android.volley.toolbox.Volley
 import com.example.meilolbook.ListClickedActivity
 import com.example.meilolbook.R
 import kotlinx.android.synthetic.main.fragment_search.*
+import kotlinx.android.synthetic.main.nav_header_main.view.*
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -110,7 +111,6 @@ class ListClickedActivity : Activity() {
                 var red_p5_gold_tmp = findViewById<TextView>(R.id.red_p5_gold) as TextView
                 red_p5_gold_tmp.text = red_p5_gold
                 ///
-                val cs = it.getJSONArray("participants")
                 val blue_p1_cs = JSONObject(gold.getJSONObject(0)["stats"].toString())["totalMinionsKilled"].toString()
                 var blue_p1_cs_tmp = findViewById<TextView>(R.id.blue_p1_cs) as TextView
                 blue_p1_cs_tmp.text = blue_p1_cs
@@ -143,36 +143,78 @@ class ListClickedActivity : Activity() {
                 red_p5_cs_tmp.text = red_p5_cs
                 ///
                 val score = it.getJSONArray("participants")
-                val blue_p1_k = JSONObject(score.getJSONObject(0)["stats"].toString())["kills"].toString()
-                val blue_p1_d = JSONObject(score.getJSONObject(0)["stats"].toString())["deaths"].toString()
-                val blue_p1_a = JSONObject(score.getJSONObject(0)["stats"].toString())["assists"].toString()
+                val blue_p1_k = JSONObject(gold.getJSONObject(0)["stats"].toString())["kills"].toString()
+                val blue_p1_d = JSONObject(gold.getJSONObject(0)["stats"].toString())["deaths"].toString()
+                val blue_p1_a = JSONObject(gold.getJSONObject(0)["stats"].toString())["assists"].toString()
                 val kda1 = blue_p1_k+"/"+blue_p1_d+"/"+blue_p1_a
                 val blue_p1_score = findViewById(R.id.blue_p1_score) as TextView
                 blue_p1_score.text = kda1
-                val blue_p2_k = JSONObject(score.getJSONObject(0)["stats"].toString())["kills"].toString()
-                val blue_p2_d = JSONObject(score.getJSONObject(0)["stats"].toString())["deaths"].toString()
-                val blue_p2_a = JSONObject(score.getJSONObject(0)["stats"].toString())["assists"].toString()
+                val blue_p2_k = JSONObject(gold.getJSONObject(1)["stats"].toString())["kills"].toString()
+                val blue_p2_d = JSONObject(gold.getJSONObject(1)["stats"].toString())["deaths"].toString()
+                val blue_p2_a = JSONObject(gold.getJSONObject(1)["stats"].toString())["assists"].toString()
                 val kda2 = blue_p2_k+"/"+blue_p2_d+"/"+blue_p2_a
                 val blue_p2_score = findViewById(R.id.blue_p2_score) as TextView
                 blue_p2_score.text = kda2
-                val blue_p3_k = JSONObject(score.getJSONObject(0)["stats"].toString())["kills"].toString()
-                val blue_p3_d = JSONObject(score.getJSONObject(0)["stats"].toString())["deaths"].toString()
-                val blue_p3_a = JSONObject(score.getJSONObject(0)["stats"].toString())["assists"].toString()
+                val blue_p3_k = JSONObject(gold.getJSONObject(2)["stats"].toString())["kills"].toString()
+                val blue_p3_d = JSONObject(gold.getJSONObject(2)["stats"].toString())["deaths"].toString()
+                val blue_p3_a = JSONObject(gold.getJSONObject(2)["stats"].toString())["assists"].toString()
                 val kda3 = blue_p3_k+"/"+blue_p3_d+"/"+blue_p3_a
                 val blue_p3_score = findViewById(R.id.blue_p3_score) as TextView
                 blue_p3_score.text = kda3
-                val blue_p4_k = JSONObject(score.getJSONObject(0)["stats"].toString())["kills"].toString()
-                val blue_p4_d = JSONObject(score.getJSONObject(0)["stats"].toString())["deaths"].toString()
-                val blue_p4_a = JSONObject(score.getJSONObject(0)["stats"].toString())["assists"].toString()
-                val kda4 = blue_p1_k+"/"+blue_p1_d+"/"+blue_p1_a
-                val blue_p1_score = findViewById(R.id.blue_p1_score) as TextView
-                blue_p1_score.text = kda1
-                val blue_p1_k = JSONObject(score.getJSONObject(0)["stats"].toString())["kills"].toString()
-                val blue_p1_d = JSONObject(score.getJSONObject(0)["stats"].toString())["deaths"].toString()
-                val blue_p1_a = JSONObject(score.getJSONObject(0)["stats"].toString())["assists"].toString()
-                val kda1 = blue_p1_k+"/"+blue_p1_d+"/"+blue_p1_a
-                val blue_p1_score = findViewById(R.id.blue_p1_score) as TextView
-                blue_p1_score.text = kda1
+                val blue_p4_k = JSONObject(gold.getJSONObject(3)["stats"].toString())["kills"].toString()
+                val blue_p4_d = JSONObject(gold.getJSONObject(3)["stats"].toString())["deaths"].toString()
+                val blue_p4_a = JSONObject(gold.getJSONObject(3)["stats"].toString())["assists"].toString()
+                val kda4 = blue_p4_k+"/"+blue_p4_d+"/"+blue_p4_a
+                val blue_p4_score = findViewById(R.id.blue_p4_score) as TextView
+                blue_p4_score.text = kda4
+                val blue_p5_k = JSONObject(gold.getJSONObject(4)["stats"].toString())["kills"].toString()
+                val blue_p5_d = JSONObject(gold.getJSONObject(4)["stats"].toString())["deaths"].toString()
+                val blue_p5_a = JSONObject(gold.getJSONObject(4)["stats"].toString())["assists"].toString()
+                val kda5 = blue_p5_k+"/"+blue_p5_d+"/"+blue_p5_a
+                val blue_p5_score = findViewById(R.id.blue_p5_score) as TextView
+                blue_p5_score.text = kda5
+                val red_p1_k = JSONObject(gold.getJSONObject(5)["stats"].toString())["kills"].toString()
+                val red_p1_d = JSONObject(gold.getJSONObject(5)["stats"].toString())["deaths"].toString()
+                val red_p1_a = JSONObject(gold.getJSONObject(5)["stats"].toString())["assists"].toString()
+                val kda6 = red_p1_k+"/"+red_p1_d+"/"+red_p1_a
+                val red_p1_score = findViewById(R.id.red_p1_score) as TextView
+                red_p1_score.text = kda6
+                val red_p2_k = JSONObject(gold.getJSONObject(6)["stats"].toString())["kills"].toString()
+                val red_p2_d = JSONObject(gold.getJSONObject(6)["stats"].toString())["deaths"].toString()
+                val red_p2_a = JSONObject(gold.getJSONObject(6)["stats"].toString())["assists"].toString()
+                val kda7 = red_p2_k+"/"+red_p2_d+"/"+red_p2_a
+                val red_p2_score = findViewById(R.id.red_p2_score) as TextView
+                red_p2_score.text = kda7
+                val red_p3_k = JSONObject(gold.getJSONObject(7)["stats"].toString())["kills"].toString()
+                val red_p3_d = JSONObject(gold.getJSONObject(7)["stats"].toString())["deaths"].toString()
+                val red_p3_a = JSONObject(gold.getJSONObject(7)["stats"].toString())["assists"].toString()
+                val kda8 = red_p3_k+"/"+red_p3_d+"/"+red_p3_a
+                val red_p3_score = findViewById(R.id.red_p3_score) as TextView
+                red_p3_score.text = kda8
+                val red_p4_k = JSONObject(gold.getJSONObject(8)["stats"].toString())["kills"].toString()
+                val red_p4_d = JSONObject(gold.getJSONObject(8)["stats"].toString())["deaths"].toString()
+                val red_p4_a = JSONObject(gold.getJSONObject(8)["stats"].toString())["assists"].toString()
+                val kda9 = red_p4_k+"/"+red_p4_d+"/"+red_p4_a
+                val red_p4_score = findViewById(R.id.red_p4_score) as TextView
+                red_p4_score.text = kda9
+                val red_p5_k = JSONObject(gold.getJSONObject(9)["stats"].toString())["kills"].toString()
+                val red_p5_d = JSONObject(gold.getJSONObject(9)["stats"].toString())["deaths"].toString()
+                val red_p5_a = JSONObject(gold.getJSONObject(9)["stats"].toString())["assists"].toString()
+                val kda10 = red_p5_k+"/"+red_p5_d+"/"+red_p5_a
+                val red_p5_score = findViewById(R.id.red_p5_score) as TextView
+                red_p5_score.text = kda10
+                ///
+                val cImId = it.getJSONArray("participants")
+                val p1_img = JSONObject(cImId.getJSONObject(0)["championId"].toString()).toString()
+                val cImgRId = resources.getIdentifier(
+                    JSONObject(idToName[p1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    this?.getPackageName()
+                )
+                val blue_p1_img = findViewById(R.id.blue_p1_champion) as ImageView
+                blue_p1_img.setImageResource(cImgRId)
+
+
 
 
             },
