@@ -3,6 +3,7 @@ package com.example.meilolbook.ui.search
 import android.content.Context
 import android.graphics.Bitmap
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -189,7 +190,7 @@ class SearchFragment : Fragment() {
 
                     val cId = tmpPlayer["championId"].toString()
 
-                    val matchId = matchObj["gameId"].toString()
+                    val matchIdURL = "https://acs-garena.leagueoflegends.com/v1/stats/game/TW/" + matchObj["gameId"].toString()
                     val gameMap = matchObj["mapId"].toString()
                     val cName = JSONObject(idToName[cId].toString())["name"].toString()
                     val cImgRId = resources.getIdentifier(
@@ -213,7 +214,7 @@ class SearchFragment : Fragment() {
 
                     info.add(
                         ListView_save(
-                            matchId,
+                            matchIdURL,
                             gameMap,
                             cName,
                             cImgRId,
@@ -227,6 +228,7 @@ class SearchFragment : Fragment() {
                     )
 
                     listview.adapter = CustomAdapter(listview.context, info)
+                    clickList(listview)
                 }
 
                 scroll_list.addView(view)
@@ -294,7 +296,7 @@ class SearchFragment : Fragment() {
 
                             info.add(
                                 ListView_save(
-                                    matchId,
+                                    url,
                                     gameMap,
                                     cName,
                                     cImgRId,
@@ -308,6 +310,7 @@ class SearchFragment : Fragment() {
                             )
 
                             listview.adapter = CustomAdapter(listview.context, info)
+                            clickList(listview)
                         },
                         Response.ErrorListener {})
                     reqQueue!!.add(jsonReq)
@@ -316,6 +319,14 @@ class SearchFragment : Fragment() {
             Response.ErrorListener {})
         reqQueue!!.add(jsonReq)
     }
+
+    private fun clickList(listview: ListView)
+    {
+        listview.setOnItemClickListener { parent, view, position, id ->
+            val matchIdURL = (parent.getItemAtPosition(position) as ListView_save).matchIdURL
+            Log.i("custom", matchIdURL)
+        }
+    }
 }
 
 
@@ -323,7 +334,7 @@ class SearchFragment : Fragment() {
 
 
 data class ListView_save(
-    val matchId: String,
+    val matchIdURL: String,
     val gameMap: String,
     val cName: String,
     val cImgRId: Int,
