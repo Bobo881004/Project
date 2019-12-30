@@ -206,7 +206,6 @@ class ListClickedActivity : Activity() {
                 red_p5_score.text = kda10
                 ///
                 val p1_img = gold.getJSONObject(0)["championId"].toString()
-                Log.i("custom_1", p1_img)
                 val cImgRId_p1 = resources.getIdentifier(
                     JSONObject(idToName[p1_img].toString())["id"].toString().toLowerCase(),
                     "drawable",
@@ -214,6 +213,78 @@ class ListClickedActivity : Activity() {
                 )
                 val blue_p1_img = findViewById(R.id.blue_p1_champion) as ImageView
                 blue_p1_img.setImageResource(cImgRId_p1)
+                val p2_img = gold.getJSONObject(1)["championId"].toString()
+                val cImgRId_p2 = resources.getIdentifier(
+                    JSONObject(idToName[p2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p2_img = findViewById(R.id.blue_p2_champion) as ImageView
+                blue_p2_img.setImageResource(cImgRId_p2)
+                val p3_img = gold.getJSONObject(2)["championId"].toString()
+                val cImgRId_p3 = resources.getIdentifier(
+                    JSONObject(idToName[p3_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p3_img = findViewById(R.id.blue_p3_champion) as ImageView
+                blue_p3_img.setImageResource(cImgRId_p3)
+                val p4_img = gold.getJSONObject(3)["championId"].toString()
+                val cImgRId_p4 = resources.getIdentifier(
+                    JSONObject(idToName[p4_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p4_img = findViewById(R.id.blue_p4_champion) as ImageView
+                blue_p4_img.setImageResource(cImgRId_p4)
+                val p5_img = gold.getJSONObject(4)["championId"].toString()
+                val cImgRId_p5 = resources.getIdentifier(
+                    JSONObject(idToName[p5_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p5_img = findViewById(R.id.blue_p5_champion) as ImageView
+                blue_p5_img.setImageResource(cImgRId_p5)
+                val p6_img = gold.getJSONObject(5)["championId"].toString()
+                val cImgRId_p6 = resources.getIdentifier(
+                    JSONObject(idToName[p6_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p1_img = findViewById(R.id.red_p1_champion) as ImageView
+                red_p1_img.setImageResource(cImgRId_p6)
+                val p7_img = gold.getJSONObject(6)["championId"].toString()
+                val cImgRId_p7 = resources.getIdentifier(
+                    JSONObject(idToName[p7_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p2_img = findViewById(R.id.red_p2_champion) as ImageView
+                red_p2_img.setImageResource(cImgRId_p7)
+                val p8_img = gold.getJSONObject(7)["championId"].toString()
+                val cImgRId_p8 = resources.getIdentifier(
+                    JSONObject(idToName[p8_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p3_img = findViewById(R.id.red_p3_champion) as ImageView
+                red_p3_img.setImageResource(cImgRId_p8)
+                val p9_img = gold.getJSONObject(8)["championId"].toString()
+                val cImgRId_p9 = resources.getIdentifier(
+                    JSONObject(idToName[p9_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p4_img = findViewById(R.id.red_p4_champion) as ImageView
+                red_p4_img.setImageResource(cImgRId_p9)
+                val p10_img = gold.getJSONObject(9)["championId"].toString()
+                val cImgRId_p10 = resources.getIdentifier(
+                    JSONObject(idToName[p10_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p5_img = findViewById(R.id.red_p5_champion) as ImageView
+                red_p5_img.setImageResource(cImgRId_p10)
 
 
 
