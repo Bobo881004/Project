@@ -15,6 +15,7 @@
         android:networkSecurityConfig="@xml/network_security_config">
 
         <activity android:name=".ui.test"></activity>
+        <activity android:name=".ListClickedActivity"/>
         <activity
             android:name=".champion_intro"
             android:label="@string/title_activity_champion_intro"

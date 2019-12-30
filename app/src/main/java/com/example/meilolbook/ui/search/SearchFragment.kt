@@ -1,6 +1,7 @@
 package com.example.meilolbook.ui.search
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.util.Log
@@ -17,6 +18,7 @@ import com.android.volley.Response
 import com.android.volley.toolbox.ImageRequest
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import com.example.meilolbook.ListClickedActivity
 import com.example.meilolbook.R
 import kotlinx.android.synthetic.main.fragment_search.*
 import org.json.JSONObject
@@ -325,6 +327,12 @@ class SearchFragment : Fragment() {
         listview.setOnItemClickListener { parent, view, position, id ->
             val matchIdURL = (parent.getItemAtPosition(position) as ListView_save).matchIdURL
             Log.i("custom", matchIdURL)
+            val intent = Intent(activity, ListClickedActivity::class.java)
+
+            var bundle = Bundle()
+            bundle.putString("key",matchIdURL)
+            intent.putExtra("bundle",bundle)
+            startActivity(intent)
         }
     }
 }
