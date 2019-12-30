@@ -276,7 +276,7 @@ class SearchFragment : Fragment() {
 
                             val cId = tmpPlayer["championId"].toString()
 
-                            val cName = JSONObject(idToName[cId].toString())["name"].toString()
+                            val cName = JSONObject(idToName[cId].toString())["name"].toString()  //here
                             val cImgRId = resources.getIdentifier(
                                 JSONObject(idToName[cId].toString())["id"].toString().toLowerCase(),
                                 "drawable",
