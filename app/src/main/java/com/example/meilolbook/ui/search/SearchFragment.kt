@@ -108,7 +108,7 @@ class SearchFragment : Fragment() {
 
                     tmp.text = "Summoner Not Found!"
                     tmp.textSize = 30f
-
+                    tmp.setTextColor("#FFFFFF".toColorInt())
                     scroll_list.addView(tmp)
                 }
             )
@@ -144,10 +144,11 @@ class SearchFragment : Fragment() {
                     scroll_list.addView(tmpLayout)
                 },
                 Response.ErrorListener {
-                    val tmp = TextView(this.context)
+                    var tmp = TextView(this.context)
 
                     tmp.text = "Summoner Not Found!"
                     tmp.textSize = 30f
+                    tmp.setTextColor("#FFFFFF".toColorInt())
     //                tmp.textAlignment = View.TEXT_ALIGNMENT_CENTER
 
                     scroll_list.addView(tmp)
