@@ -92,8 +92,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1054"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -113,8 +113,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -134,8 +134,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -155,8 +155,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3858"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -176,8 +176,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -197,8 +197,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -218,8 +218,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -239,8 +239,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -260,8 +260,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -281,8 +281,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -302,8 +302,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "shield"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "SummonerBarrier"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -323,8 +323,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -344,8 +344,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3854"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -365,8 +365,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -386,8 +386,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3854"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -407,8 +407,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -428,8 +428,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -449,8 +449,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -470,8 +470,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -491,8 +491,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -512,8 +512,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ghost"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerhaste"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -533,8 +533,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -554,8 +554,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -575,8 +575,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -596,8 +596,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -617,8 +617,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -638,8 +638,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -659,8 +659,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -680,8 +680,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -701,8 +701,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -722,8 +722,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -743,8 +743,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -764,8 +764,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -785,8 +785,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1054"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -806,8 +806,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -827,8 +827,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -848,8 +848,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -869,8 +869,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "ghost"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerhaste"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -890,8 +890,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -911,8 +911,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -932,8 +932,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -953,8 +953,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -974,8 +974,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -995,8 +995,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1016,8 +1016,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1037,8 +1037,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1058,8 +1058,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1079,8 +1079,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1100,8 +1100,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1121,8 +1121,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1142,8 +1142,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1163,8 +1163,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1184,8 +1184,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1205,8 +1205,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1036"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1226,8 +1226,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1247,8 +1247,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1268,8 +1268,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1289,8 +1289,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1310,8 +1310,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1331,8 +1331,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1352,8 +1352,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1373,8 +1373,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1394,8 +1394,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1415,8 +1415,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3858"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1436,8 +1436,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1457,8 +1457,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1478,8 +1478,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1499,8 +1499,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1520,8 +1520,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = "i"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1541,8 +1541,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1562,8 +1562,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1583,8 +1583,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1604,8 +1604,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1625,8 +1625,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1646,8 +1646,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1054"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1667,8 +1667,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1688,8 +1688,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1709,8 +1709,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1054"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1730,8 +1730,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3858"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1751,8 +1751,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1772,8 +1772,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1793,8 +1793,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1814,8 +1814,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1835,8 +1835,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1856,8 +1856,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1877,8 +1877,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1054"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1898,8 +1898,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1919,8 +1919,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1940,8 +1940,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3854"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1961,8 +1961,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -1982,8 +1982,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2003,8 +2003,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3858"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2024,8 +2024,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2045,8 +2045,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2066,8 +2066,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2087,8 +2087,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2108,8 +2108,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2129,8 +2129,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1054"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2150,8 +2150,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1027"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2171,8 +2171,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2192,8 +2192,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3862"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2213,8 +2213,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "ignite"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerdot"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2234,8 +2234,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1054"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2255,8 +2255,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2276,8 +2276,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1082"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "ghost"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerhaste"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2297,8 +2297,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2318,8 +2318,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2339,8 +2339,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2360,8 +2360,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2381,8 +2381,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2402,8 +2402,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2423,8 +2423,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2444,8 +2444,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2465,8 +2465,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3858"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2486,8 +2486,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2507,8 +2507,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1036"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2528,8 +2528,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3858"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2549,8 +2549,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2570,8 +2570,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3854"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2591,8 +2591,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2612,8 +2612,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2633,8 +2633,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2654,8 +2654,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2675,8 +2675,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2696,8 +2696,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2717,8 +2717,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2738,8 +2738,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2759,8 +2759,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2780,8 +2780,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2801,8 +2801,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2822,8 +2822,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2843,8 +2843,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2864,8 +2864,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1082"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2885,8 +2885,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2906,8 +2906,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2927,8 +2927,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "heal"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerheal"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2948,8 +2948,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2969,8 +2969,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1041"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -2990,8 +2990,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1055"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -3011,8 +3011,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i2033"
                 data.startitem2 = "i3340"
                 data.startitem3 = ""
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -3032,8 +3032,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "exhaust"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "SummonerExhaust"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -3053,8 +3053,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1039"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "smite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonersmite"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -3074,8 +3074,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1036"
                 data.startitem2 = "i2031"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -3095,8 +3095,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "teleport"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerteleport"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -3116,8 +3116,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -3137,8 +3137,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i1056"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
@@ -3158,8 +3158,8 @@ class MainActivity : AppCompatActivity() {
                 data.startitem1 = "i3850"
                 data.startitem2 = "i2003"
                 data.startitem3 = "i3340"
-                data.summonerspell1 = "ignite"
-                data.summonerspell2 = "flash"
+                data.summonerspell1 = "summonerdot"
+                data.summonerspell2 = "summonerflash"
                 intent.putExtra("champion_data", data)
                 startActivity(intent)
             }
