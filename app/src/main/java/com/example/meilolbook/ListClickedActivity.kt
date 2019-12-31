@@ -117,34 +117,44 @@ class ListClickedActivity : Activity() {
                 var red_p5_gold_tmp = findViewById<TextView>(R.id.red_p5_gold) as TextView
                 red_p5_gold_tmp.text = red_p5_gold
                 ///
-                val blue_p1_cs = JSONObject(gold.getJSONObject(0)["stats"].toString())["totalMinionsKilled"].toString()
+                val blue_p1_cs = (JSONObject(gold.getJSONObject(0)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(0)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var blue_p1_cs_tmp = findViewById<TextView>(R.id.blue_p1_cs) as TextView
                 blue_p1_cs_tmp.text = blue_p1_cs
-                val blue_p2_cs = JSONObject(gold.getJSONObject(1)["stats"].toString())["totalMinionsKilled"].toString()
+                val blue_p2_cs = (JSONObject(gold.getJSONObject(1)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(1)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var blue_p2_cs_tmp = findViewById<TextView>(R.id.blue_p2_cs) as TextView
                 blue_p2_cs_tmp.text = blue_p2_cs
-                val blue_p3_cs = JSONObject(gold.getJSONObject(2)["stats"].toString())["totalMinionsKilled"].toString()
+                val blue_p3_cs = (JSONObject(gold.getJSONObject(2)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(2)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var blue_p3_cs_tmp = findViewById<TextView>(R.id.blue_p3_cs) as TextView
                 blue_p3_cs_tmp.text = blue_p3_cs
-                val blue_p4_cs = JSONObject(gold.getJSONObject(3)["stats"].toString())["totalMinionsKilled"].toString()
+                val blue_p4_cs = (JSONObject(gold.getJSONObject(3)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(3)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var blue_p4_cs_tmp = findViewById<TextView>(R.id.blue_p4_cs) as TextView
                 blue_p4_cs_tmp.text = blue_p4_cs
-                val blue_p5_cs = JSONObject(gold.getJSONObject(4)["stats"].toString())["totalMinionsKilled"].toString()
+                val blue_p5_cs = (JSONObject(gold.getJSONObject(4)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(4)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var blue_p5_cs_tmp = findViewById<TextView>(R.id.blue_p5_cs) as TextView
                 blue_p5_cs_tmp.text = blue_p5_cs
-                val red_p1_cs = JSONObject(gold.getJSONObject(5)["stats"].toString())["totalMinionsKilled"].toString()
+                val red_p1_cs = (JSONObject(gold.getJSONObject(5)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(5)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var red_p1_cs_tmp = findViewById<TextView>(R.id.red_p1_cs) as TextView
                 red_p1_cs_tmp.text = red_p1_cs
-                val red_p2_cs = JSONObject(gold.getJSONObject(6)["stats"].toString())["totalMinionsKilled"].toString()
+                val red_p2_cs = (JSONObject(gold.getJSONObject(6)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(6)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var red_p2_cs_tmp = findViewById<TextView>(R.id.red_p2_cs) as TextView
                 red_p2_cs_tmp.text = red_p2_cs
-                val red_p3_cs = JSONObject(gold.getJSONObject(7)["stats"].toString())["totalMinionsKilled"].toString()
+                val red_p3_cs = (JSONObject(gold.getJSONObject(7)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(7)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var red_p3_cs_tmp = findViewById<TextView>(R.id.red_p3_cs) as TextView
                 red_p3_cs_tmp.text = red_p3_cs
-                val red_p4_cs = JSONObject(gold.getJSONObject(8)["stats"].toString())["totalMinionsKilled"].toString()
+                val red_p4_cs = (JSONObject(gold.getJSONObject(8)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(8)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var red_p4_cs_tmp = findViewById<TextView>(R.id.red_p4_cs) as TextView
                 red_p4_cs_tmp.text = red_p4_cs
-                val red_p5_cs = JSONObject(gold.getJSONObject(9)["stats"].toString())["totalMinionsKilled"].toString()
+                val red_p5_cs = (JSONObject(gold.getJSONObject(9)["stats"].toString())["totalMinionsKilled"].toString().toInt()
+                                    + JSONObject(gold.getJSONObject(9)["stats"].toString())["neutralMinionsKilled"].toString().toInt()).toString()
                 var red_p5_cs_tmp = findViewById<TextView>(R.id.red_p5_cs) as TextView
                 red_p5_cs_tmp.text = red_p5_cs
                 ///

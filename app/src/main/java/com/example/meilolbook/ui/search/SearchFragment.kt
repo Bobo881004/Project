@@ -212,7 +212,9 @@ class SearchFragment : Fragment() {
                     val endGame = tmpPlayerStatus["win"].toString().toBoolean()
                     val kda =
                         "${tmpPlayerStatus["kills"]}/${tmpPlayerStatus["deaths"]}/${tmpPlayerStatus["assists"]}"
-                    val cs = tmpPlayerStatus["totalMinionsKilled"].toString()
+                    val cs = (tmpPlayerStatus["totalMinionsKilled"].toString().toInt()
+                                + tmpPlayerStatus["neutralMinionsKilled"].toString().toInt()
+                            ).toString()
                     val gold = tmpPlayerStatus["goldEarned"].toString()
 
                     info.add(
@@ -294,7 +296,7 @@ class SearchFragment : Fragment() {
                             val endGame = tmpPlayerStatus["win"].toString().toBoolean()
                             val kda =
                                 "${tmpPlayerStatus["kills"]}/${tmpPlayerStatus["deaths"]}/${tmpPlayerStatus["assists"]}"
-                            val cs = tmpPlayerStatus["totalMinionsKilled"].toString()
+                            val cs = (tmpPlayerStatus["totalMinionsKilled"].toString().toInt() + tmpPlayerStatus["neutralMinionsKilled"].toString().toInt()).toString()
                             val gold = tmpPlayerStatus["goldEarned"].toString()
 
                             info.add(
