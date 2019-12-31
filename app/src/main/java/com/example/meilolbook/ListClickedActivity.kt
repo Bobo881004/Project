@@ -36,6 +36,7 @@ val idToName = JSONObject("""
         {"266":{"id":"Aatrox","name":"厄薩斯"},"103":{"id":"Ahri","name":"阿璃"},"84":{"id":"Akali","name":"阿卡莉"},"12":{"id":"Alistar","name":"亞歷斯塔"},"32":{"id":"Amumu","name":"阿姆姆"},"34":{"id":"Anivia","name":"艾妮維亞"},"1":{"id":"Annie","name":"安妮"},"523":{"id":"Aphelios","name":"亞菲利歐"},"22":{"id":"Ashe","name":"艾希"},"136":{"id":"AurelionSol","name":"翱銳龍獸"},"268":{"id":"Azir","name":"阿祈爾"},"432":{"id":"Bard","name":"巴德"},"53":{"id":"Blitzcrank","name":"布里茨"},"63":{"id":"Brand","name":"布蘭德"},"201":{"id":"Braum","name":"布郎姆"},"51":{"id":"Caitlyn","name":"凱特琳"},"164":{"id":"Camille","name":"卡蜜兒"},"69":{"id":"Cassiopeia","name":"卡莎碧雅"},"31":{"id":"Chogath","name":"科加斯"},"42":{"id":"Corki","name":"庫奇"},"122":{"id":"Darius","name":"達瑞斯"},"131":{"id":"Diana","name":"黛安娜"},"119":{"id":"Draven","name":"達瑞文"},"36":{"id":"DrMundo","name":"蒙多醫生"},"245":{"id":"Ekko","name":"艾克"},"60":{"id":"Elise","name":"伊莉絲"},"28":{"id":"Evelynn","name":"伊芙琳"},"81":{"id":"Ezreal","name":"伊澤瑞爾"},"9":{"id":"Fiddlesticks","name":"費德提克"},"114":{"id":"Fiora","name":"菲歐拉"},"105":{"id":"Fizz","name":"飛斯"},"3":{"id":"Galio","name":"加里歐"},"41":{"id":"Gangplank","name":"剛普朗克"},"86":{"id":"Garen","name":"蓋倫"},"150":{"id":"Gnar","name":"吶兒"},"79":{"id":"Gragas","name":"古拉格斯"},"104":{"id":"Graves","name":"葛雷夫"},"120":{"id":"Hecarim","name":"赫克林"},"74":{"id":"Heimerdinger","name":"漢默丁格"},"420":{"id":"Illaoi","name":"伊羅旖"},"39":{"id":"Irelia","name":"伊瑞莉雅"},"427":{"id":"Ivern","name":"埃爾文"},"40":{"id":"Janna","name":"珍娜"},"59":{"id":"JarvanIV","name":"嘉文四世"},"24":{"id":"Jax","name":"賈克斯"},"126":{"id":"Jayce","name":"杰西"},"202":{"id":"Jhin","name":"燼"},"222":{"id":"Jinx","name":"吉茵珂絲"},"145":{"id":"Kaisa","name":"凱莎"},"429":{"id":"Kalista","name":"克黎思妲"},"43":{"id":"Karma","name":"卡瑪"},"30":{"id":"Karthus","name":"卡爾瑟斯"},"38":{"id":"Kassadin","name":"卡薩丁"},"55":{"id":"Katarina","name":"卡特蓮娜"},"10":{"id":"Kayle","name":"凱爾"},"141":{"id":"Kayn","name":"慨影"},"85":{"id":"Kennen","name":"凱能"},"121":{"id":"Khazix","name":"卡力斯"},"203":{"id":"Kindred","name":"鏡爪"},"240":{"id":"Kled","name":"克雷德"},"96":{"id":"KogMaw","name":"寇格魔"},"7":{"id":"Leblanc","name":"勒布朗"},"64":{"id":"LeeSin","name":"李星"},"89":{"id":"Leona","name":"雷歐娜"},"127":{"id":"Lissandra","name":"麗珊卓"},"236":{"id":"Lucian","name":"路西恩"},"117":{"id":"Lulu","name":"露璐"},"99":{"id":"Lux","name":"拉克絲"},"54":{"id":"Malphite","name":"墨菲特"},"90":{"id":"Malzahar","name":"馬爾札哈"},"57":{"id":"Maokai","name":"茂凱"},"11":{"id":"MasterYi","name":"易大師"},"21":{"id":"MissFortune","name":"好運姐"},"62":{"id":"MonkeyKing","name":"悟空"},"82":{"id":"Mordekaiser","name":"魔鬥凱薩"},"25":{"id":"Morgana","name":"魔甘娜"},"267":{"id":"Nami","name":"娜米"},"75":{"id":"Nasus","name":"納瑟斯"},"111":{"id":"Nautilus","name":"納帝魯斯"},"518":{"id":"Neeko","name":"妮可"},"76":{"id":"Nidalee","name":"奈德麗"},"56":{"id":"Nocturne","name":"夜曲"},"20":{"id":"Nunu","name":"努努和威朗普"},"2":{"id":"Olaf","name":"歐拉夫"},"61":{"id":"Orianna","name":"奧莉安娜"},"516":{"id":"Ornn","name":"鄂爾"},"80":{"id":"Pantheon","name":"潘森"},"78":{"id":"Poppy","name":"波比"},"555":{"id":"Pyke","name":"派克"},"246":{"id":"Qiyana","name":"姬亞娜"},"133":{"id":"Quinn","name":"葵恩"},"497":{"id":"Rakan","name":"銳空"},"33":{"id":"Rammus","name":"拉姆斯"},"421":{"id":"RekSai","name":"雷珂煞"},"58":{"id":"Renekton","name":"雷尼克頓"},"107":{"id":"Rengar","name":"雷葛爾"},"92":{"id":"Riven","name":"雷玟"},"68":{"id":"Rumble","name":"藍寶"},"13":{"id":"Ryze","name":"雷茲"},"113":{"id":"Sejuani","name":"史瓦妮"},"235":{"id":"Senna","name":"姍娜"},"35":{"id":"Shaco","name":"薩科"},"98":{"id":"Shen","name":"慎"},"102":{"id":"Shyvana","name":"希瓦娜"},"27":{"id":"Singed","name":"辛吉德"},"14":{"id":"Sion","name":"賽恩"},"15":{"id":"Sivir","name":"希維爾"},"72":{"id":"Skarner","name":"史加納"},"37":{"id":"Sona","name":"索娜"},"16":{"id":"Soraka","name":"索拉卡"},"50":{"id":"Swain","name":"斯溫"},"517":{"id":"Sylas","name":"賽勒斯"},"134":{"id":"Syndra","name":"星朵拉"},"223":{"id":"TahmKench","name":"貪啃奇"},"163":{"id":"Taliyah","name":"塔莉雅"},"91":{"id":"Talon","name":"塔隆"},"44":{"id":"Taric","name":"塔里克"},"17":{"id":"Teemo","name":"提摩"},"412":{"id":"Thresh","name":"瑟雷西"},"18":{"id":"Tristana","name":"崔絲塔娜"},"48":{"id":"Trundle","name":"特朗德"},"23":{"id":"Tryndamere","name":"泰達米爾"},"4":{"id":"TwistedFate","name":"逆命"},"29":{"id":"Twitch","name":"圖奇"},"77":{"id":"Udyr","name":"烏迪爾"},"6":{"id":"Urgot","name":"烏爾加特"},"110":{"id":"Varus","name":"法洛士"},"67":{"id":"Vayne","name":"汎"},"45":{"id":"Veigar","name":"維迦"},"161":{"id":"Velkoz","name":"威寇茲"},"254":{"id":"Vi","name":"菲艾"},"112":{"id":"Viktor","name":"維克特"},"8":{"id":"Vladimir","name":"弗拉迪米爾"},"106":{"id":"Volibear","name":"弗力貝爾"},"19":{"id":"Warwick","name":"沃維克"},"498":{"id":"Xayah","name":"剎雅"},"101":{"id":"Xerath","name":"齊勒斯"},"5":{"id":"XinZhao","name":"趙信"},"157":{"id":"Yasuo","name":"犽宿"},"83":{"id":"Yorick","name":"約瑞科"},"350":{"id":"Yuumi","name":"悠咪"},"154":{"id":"Zac","name":"札克"},"238":{"id":"Zed","name":"劫"},"115":{"id":"Ziggs","name":"希格斯"},"26":{"id":"Zilean","name":"極靈"},"142":{"id":"Zoe","name":"柔依"},"143":{"id":"Zyra","name":"枷蘿"}}
     """)
 
+
 class ListClickedActivity : Activity() {
     private var reqQueue: RequestQueue? = null
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +46,7 @@ class ListClickedActivity : Activity() {
         reqQueue = Volley.newRequestQueue(this)
 
         var getKey = intent.getBundleExtra("bundle").getString("key")
-//        Log.i("custom_1", getKey)
+        //Log.i("custom_1", getKey)
         val jsonReq = JsonObjectRequest(Request.Method.GET, getKey, null,
             Response.Listener {
                 val player_name = it.getJSONArray("participantIdentities")
@@ -285,9 +286,179 @@ class ListClickedActivity : Activity() {
                 )
                 val red_p5_img = findViewById(R.id.red_p5_champion) as ImageView
                 red_p5_img.setImageResource(cImgRId_p10)
+///////////////////////////////////////////////
 
+                val p1_spell_1_img = gold.getJSONObject(0)["spell1Id"].toString()
+                Log.i("custom_1", p1_spell_1_img)
+                val p1_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p1_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p1_skill_1 = findViewById(R.id.blue_p1_skill_1) as ImageView
+                blue_p1_skill_1.setImageResource(p1_spell_1)
+                val p1_spell_2_img = gold.getJSONObject(0)["spell2Id"].toString()
+                Log.i("custom_2", p1_spell_2_img)
+                val p1_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p1_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p1_skill_2 = findViewById(R.id.blue_p1_skill_2) as ImageView
+                blue_p1_skill_2.setImageResource(p1_spell_2)
 
+                val p2_spell_1_img = gold.getJSONObject(1)["spell1Id"].toString()
+                val p2_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p2_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p2_skill_1 = findViewById(R.id.blue_p2_skill_1) as ImageView
+                blue_p2_skill_1.setImageResource(p2_spell_1)
+                val p2_spell_2_img = gold.getJSONObject(1)["spell2Id"].toString()
+                val p2_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p2_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p2_skill_2 = findViewById(R.id.blue_p2_skill_2) as ImageView
+                blue_p2_skill_2.setImageResource(p2_spell_2)
 
+                val p3_spell_1_img = gold.getJSONObject(2)["spell1Id"].toString()
+                val p3_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p3_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p3_skill_1 = findViewById(R.id.blue_p3_skill_1) as ImageView
+                blue_p3_skill_1.setImageResource(p3_spell_1)
+                val p3_spell_2_img = gold.getJSONObject(2)["spell2Id"].toString()
+                val p3_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p3_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p3_skill_2 = findViewById(R.id.blue_p3_skill_2) as ImageView
+                blue_p3_skill_2.setImageResource(p3_spell_2)
+
+                val p4_spell_1_img = gold.getJSONObject(3)["spell1Id"].toString()
+                val p4_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p4_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p4_skill_1 = findViewById(R.id.blue_p4_skill_1) as ImageView
+                blue_p4_skill_1.setImageResource(p4_spell_1)
+                val p4_spell_2_img = gold.getJSONObject(3)["spell2Id"].toString()
+                val p4_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p4_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p4_skill_2 = findViewById(R.id.blue_p4_skill_2) as ImageView
+                blue_p4_skill_2.setImageResource(p4_spell_2)
+
+                val p5_spell_1_img = gold.getJSONObject(4)["spell1Id"].toString()
+                val p5_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p5_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p5_skill_1 = findViewById(R.id.blue_p5_skill_1) as ImageView
+                blue_p5_skill_1.setImageResource(p5_spell_1)
+                val p5_spell_2_img = gold.getJSONObject(4)["spell2Id"].toString()
+                val p5_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p5_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val blue_p5_skill_2 = findViewById(R.id.blue_p5_skill_2) as ImageView
+                blue_p5_skill_2.setImageResource(p5_spell_2)
+
+                val p6_spell_1_img = gold.getJSONObject(5)["spell1Id"].toString()
+                val p6_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p6_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p1_skill_1 = findViewById(R.id.red_p1_skill_1) as ImageView
+                red_p1_skill_1.setImageResource(p6_spell_1)
+                val p6_spell_2_img = gold.getJSONObject(5)["spell2Id"].toString()
+                val p6_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p6_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p1_skill_2 = findViewById(R.id.red_p1_skill_2) as ImageView
+                red_p1_skill_2.setImageResource(p6_spell_2)
+
+                val p7_spell_1_img = gold.getJSONObject(6)["spell1Id"].toString()
+                val p7_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p7_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p2_skill_1 = findViewById(R.id.red_p2_skill_1) as ImageView
+                red_p2_skill_1.setImageResource(p7_spell_1)
+                val p7_spell_2_img = gold.getJSONObject(6)["spell2Id"].toString()
+                val p7_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p7_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p2_skill_2 = findViewById(R.id.red_p2_skill_2) as ImageView
+                red_p2_skill_2.setImageResource(p7_spell_2)
+
+                val p8_spell_1_img = gold.getJSONObject(7)["spell1Id"].toString()
+                val p8_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p8_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p3_skill_1 = findViewById(R.id.red_p3_skill_1) as ImageView
+                red_p3_skill_1.setImageResource(p8_spell_1)
+                val p8_spell_2_img = gold.getJSONObject(7)["spell2Id"].toString()
+                val p8_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p8_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p3_skill_2 = findViewById(R.id.red_p3_skill_2) as ImageView
+                red_p3_skill_2.setImageResource(p8_spell_2)
+
+                val p9_spell_1_img = gold.getJSONObject(8)["spell1Id"].toString()
+                val p9_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p9_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p4_skill_1 = findViewById(R.id.red_p4_skill_1) as ImageView
+                red_p4_skill_1.setImageResource(p9_spell_1)
+                val p9_spell_2_img = gold.getJSONObject(8)["spell2Id"].toString()
+                val p9_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p9_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p4_skill_2 = findViewById(R.id.red_p4_skill_2) as ImageView
+                red_p4_skill_2.setImageResource(p9_spell_2)
+
+                val p10_spell_1_img = gold.getJSONObject(9)["spell1Id"].toString()
+                val p10_spell_1 = resources.getIdentifier(
+                    JSONObject(idToName[p10_spell_1_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p5_skill_1 = findViewById(R.id.red_p5_skill_1) as ImageView
+                red_p5_skill_1.setImageResource(p10_spell_1)
+                val p10_spell_2_img = gold.getJSONObject(9)["spell2Id"].toString()
+                val p10_spell_2 = resources.getIdentifier(
+                    JSONObject(idToName[p10_spell_2_img].toString())["id"].toString().toLowerCase(),
+                    "drawable",
+                    packageName
+                )
+                val red_p5_skill_2 = findViewById(R.id.red_p5_skill_2) as ImageView
+                red_p5_skill_2.setImageResource(p10_spell_2)
 
             },
             Response.ErrorListener {})
