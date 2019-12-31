@@ -26,20 +26,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="WAIT"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
 
             <TextView
                 android:id="@+id/championName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"/>
 
             <TextView
                 android:id="@+id/gameMap_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"/>
 
         </LinearLayout>
 
@@ -52,19 +55,22 @@
                 android:id="@+id/Scroe_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
 
             <TextView
                 android:id="@+id/cs_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
 
             <TextView
                 android:id="@+id/money_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
         </LinearLayout>
 
         <LinearLayout
@@ -75,13 +81,15 @@
             <TextView
                 android:id="@+id/date_id"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"/>
 
             <TextView
                 android:id="@+id/time_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="28dp" />
+                android:layout_marginBottom="28dp"
+                android:textColor="#FFFFFF"/>
         </LinearLayout>
 
     </LinearLayout>
